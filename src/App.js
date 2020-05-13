@@ -1,5 +1,6 @@
 import React , { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 import NavBar from './Components/NavComponents/NavBar';
 import Home from './Components/HomeComponents/Home';
 import Contact from './Components/HomeComponents/Contact';
