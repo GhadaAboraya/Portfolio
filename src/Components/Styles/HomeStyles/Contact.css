@@ -1,0 +1,131 @@
+.contact{
+    padding-top: 100px;
+}
+.contact h1{
+    font-size: 40px;
+    color: rgb(232, 90, 22);
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.contact p{
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0 25px;
+    color: #353131;
+}
+.contact .myform{
+    padding: 25px 25px;
+}
+.contact .myform .mail{
+    width: 60%;
+}
+.contact .myform .msg{
+    margin: 15px 0;
+    width: 60%;
+    height: 140px;
+}
+.contact .myform .btn{
+    border: 1px solid rgb(232, 90, 22);
+    width: 32%;
+    padding: 7px 0;
+    background-color: rgb(232, 90, 22);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact h3{
+    padding: 50px 35px;
+    font-size: 20px;
+    color: #524c4c;
+}
+.contact .data{
+    padding: 0 25px;
+}
+.contact .data .iconn{
+    font-size: 34px;
+    padding: 0 20px;
+    color: rgb(232, 90, 22);
+}
+.contact .data .iconn:hover{
+    color: rgb(232, 90, 22);
+}
+
+
+
+
+
+
+/*  Start Responsive */
+    /* for Mobile */
+    @media (max-width: 767px) {
+        .contact {
+            padding-top: 60px;
+        }
+        .contact h1 {
+            font-size: 30px;
+            color: rgb(232, 90, 22);
+            font-family: 'Satisfy', cursive;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .contact p {
+            font-size: 14px;
+            font-weight: 500;
+            padding: 0 20px;
+            color: #353131;
+        }
+        .contact .myform {
+            padding: 15px 5px;
+        }
+        .contact .myform .mail {
+            width: 95%;
+        }
+        .contact .myform .msg {
+            margin: 15px 0;
+            width: 95%;
+            height: 115px;
+        }
+        .contact .myform .btn {
+            border: 1px solid rgb(232, 90, 22);
+            width: 60%;
+            padding: 7px 0;
+            background-color: rgb(232, 90, 22);
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .contact h3 {
+            padding: 0 0;
+            font-size: 14px;
+            color: #524c4c;
+        }
+        .contact .data {
+            padding: 0 0;
+        }
+        .contact .data .iconn {
+            font-size: 26px;
+            padding: 0 22px;
+            color: rgb(232, 90, 22);
+        }
+    }
+
+
+
+
+
+
+     /*responsive for tablet*/
+@media(min-width: 768px) and (max-width: 991px){
+    .contact h1 {
+        font-size: 35px;
+        color: rgb(232, 90, 22);
+        font-family: 'Satisfy', cursive;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .contact .data {
+        padding: 10px 10px;
+    }
+}
+   

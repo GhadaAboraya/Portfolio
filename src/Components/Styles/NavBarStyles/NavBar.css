@@ -1,0 +1,133 @@
+.logo {
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    border: 1px solid rgb(187, 93, 48);
+    padding: 2px 20px;
+    border-radius: 25px;
+    color: rgb(232, 90, 22);
+}
+.collapse {
+    padding: 0 180px;
+}
+.links{
+    padding: 0 55px;
+}
+.links .list{
+    padding: 0 20px;
+    margin: 25px 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+a {
+    color: rgb(232, 90, 22);
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav-colored { 
+    background-color:rgb(63, 62, 62);
+}
+#MyNav {
+    border-bottom: 1px solid rgba(187, 93, 48, 0.52);
+}
+.icon{
+    padding: 5px 10px;
+    font-size: 22px;
+}
+
+
+
+
+
+   /*  Start Responsive */
+    /* for Mobile */
+@media (max-width: 767px) {
+    .logo{
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, 0.5);
+        border-color: rgb(255, 251, 251);
+        margin: 0 210px;
+    }
+    .collapse {
+        padding: 0 20px;
+    }
+    .header .btn {
+        margin: 0 20px;
+        padding: 8px 10px;
+        background-color: white;
+        color: rgb(232, 90, 22);
+        border-color: rgb(232, 90, 22);
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .links .list {
+        padding: 5px 10px;
+        margin: 10px 0;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .links {
+        padding: 0 5px;
+    }
+    .icon {
+        padding: 2px 45px;
+        font-size: 20px;
+        display: none;
+    }
+}
+
+
+
+
+/*responsive for tablet*/
+@media(min-width: 768px) and (max-width: 991px){
+    .logo {
+        padding: 5px 20px;
+        font-size: 25px;
+    }
+    .collapse {
+        padding: 5px 40px;
+    }
+    .icon {
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+    .links {
+        padding: 0 30px;
+    }
+    .links .list {
+        padding: 0 15px;
+        margin: 25px 0;
+        font-weight: 600;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+/* for Laptop */
+@media(min-width: 992px) and (max-width: 1199px) {
+    .logo {
+        padding: 6px 20px;
+        font-size: 27px;
+    }
+    .collapse {
+        padding: 0 130px;
+    }
+    .links .list {
+        padding: 0 15px;
+        margin: 25px 0;
+        font-weight: 600;
+        font-size: 15px;
+    }
+}
+    

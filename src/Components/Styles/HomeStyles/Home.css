@@ -1,0 +1,112 @@
+.home {
+    background-image: url(../../../Images/bg.png);
+    background-size: cover;
+    margin: -20px 0;
+    height: 100vh;
+}
+.header{
+    padding-top: 225px;
+}
+.header h1{
+    color: rgb(232, 90, 22);
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
+}
+.header p{
+    color: white;
+    padding: 25px 15px;
+}
+.header .btn {
+    margin: 0 20px;
+    padding: 8px 35px;
+    background-color: white;
+    color: rgb(232, 90, 22);
+    border-color: rgb(232, 90, 22);
+    font-size: 18px;
+    font-weight: 700;
+}
+.header .btn:hover{
+    background-color: rgb(232, 90, 22);
+    color: white;
+    border-color: rgb(232, 90, 22);
+}
+
+
+
+
+/*  Start Responsive */
+    /* for Mobile */
+    @media (max-width: 767px) {
+        .home {
+            background-image: url(/static/media/bg.6b924c94.png);
+            background-size: cover;
+            margin: -20px 0;
+            height: 80vh;
+        }
+        .header {
+            padding-top: 200px;
+        }
+        .header h1 {
+            color: rgb(232, 90, 22);
+            font-family: 'Satisfy', cursive;
+            font-size: 24px;
+        }
+        .header p {
+            color: white;
+            padding: 15px 15px;
+            font-size: 15px;
+        }
+        .header .btn {
+            margin: 0 20px;
+            padding: 8px 10px;
+            background-color: white;
+            color: rgb(232, 90, 22);
+            border-color: rgb(232, 90, 22);
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+
+
+
+
+
+    /*responsive for tablet*/
+@media(min-width: 768px) and (max-width: 991px){
+    .home {
+        background-image: url(/static/media/bg.6b924c94.png);
+        background-size: cover;
+        margin: -20px 0;
+        height: 80vh;
+    }
+    .header {
+        padding-top: 160px;
+    }
+    .header h1 {
+        color: rgb(232, 90, 22);
+        font-family: 'Satisfy', cursive;
+        font-size: 32px;
+    }
+    .header p {
+        color: white;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+    
+
+
+
+
+/* for Laptop */
+@media(min-width: 992px) and (max-width: 1199px) {
+    .home {
+        background-image: url(/static/media/bg.6b924c94.png);
+        background-size: cover;
+        margin: -20px 0;
+        height: 90vh;
+    }
+    .header {
+        padding-top: 180px;
+    }
+}
